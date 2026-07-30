@@ -1,0 +1,35 @@
+<svg viewBox="0 0 1200 360" width="1200" height="360" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1b0f0a"/>
+      <stop offset="50%" stop-color="#2a1710"/>
+      <stop offset="100%" stop-color="#0d0705"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="30%" r="60%">
+      <stop offset="0%" stop-color="#ff9d4d" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#ff9d4d" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect x="0" y="0" width="1200" height="360" fill="url(#bgGrad)"/>
+  <rect x="0" y="0" width="1200" height="360" fill="url(#glow)"/>
+
+  <circle cx="130" cy="70" r="90" fill="#ffb347" opacity="0.06"/>
+  <circle cx="1080" cy="300" r="120" fill="#ff7043" opacity="0.05"/>
+  <circle cx="1000" cy="60" r="40" fill="#ffffff" opacity="0.04"/>
+  <circle cx="180" cy="300" r="55" fill="#ffffff" opacity="0.04"/>
+
+  <line x1="90" y1="330" x2="1110" y2="330" stroke="#ffffff" stroke-opacity="0.08" stroke-width="1"/>
+  <path d="M 60 40 Q 600 -10 1140 40" stroke="#ffb347" stroke-opacity="0.10" stroke-width="2" fill="none"/>
+
+  <ellipse cx="600" cy="180" rx="480" ry="150" fill="#000000" opacity="0.15"/>
+
+  <text x="600" y="165" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="56.0" fill="#ffffff" font-weight="bold">
+    Restaurant Tycoon 3 Script
+  </text>
+
+  <text x="600" y="225" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="20.0" fill="#c9d1d9">
+    <tspan x="600" dy="0">Script hub for Restaurant Tycoon 3 players — reads inventory,</tspan>
+    <tspan x="600" dy="30">processes recipes, exports configs, no setup.</tspan>
+  </text>
+</svg>
